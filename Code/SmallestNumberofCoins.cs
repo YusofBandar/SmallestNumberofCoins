@@ -27,7 +27,7 @@ namespace Coins
             Array.Sort(coins);
             
             //iterate through coins starting at largest amount
-            for(int i=coins.Length-1;i>0;i--){
+            for(int i=coins.Length-1;i>=0;i--){
                
                 //if coins amount is greater than 0, call decrease method
                 if(coins[i] > 0){
